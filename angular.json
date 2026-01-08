@@ -16,7 +16,9 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "outputPath": "dist/my-shop",
             "baseHref": "/my-shop/",
+            "index": "src/index.html", 
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
